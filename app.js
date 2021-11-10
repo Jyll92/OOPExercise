@@ -5,7 +5,9 @@ const mulan = {
     title: `Mulan`,
     main: `Fa Mulan`,
     quote: () => `Dishonor! Dishonor on your whole family!`,
-    storyline: () => `The movie Mulan is about Fa Mulan.`
+    storyline: function() {
+        return `The movie ${this.title} is about ${this.main}.`
+    },
 }
 
 // 2a. Create another const variable called "tangled" and set the value to an object with the following properties (Property name of "title" with the value set to the following string `Tangled` & a property name of "main" with the value set to the following string `Rapunzel`).
