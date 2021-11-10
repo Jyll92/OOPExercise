@@ -88,5 +88,6 @@ const rapunzel3 = new DMCast(`Tangled`, `Rapunzel`, {rapunzel: `Mandy Moore`, fl
 
 // Bonus
 // 6a. In the DMCast subclass, create a static method called "create" that can be used to create a new DMCast object (HINT: The method will need parameters. Also, you need to use the return keyword)
+
 // 6b. Using the DMCast class name, run the "create" method using the following values (`Moana`, `Moana of Motunui`, {moana: `Auli'i Cravalho`, maui: `Dwayne Johnson`, grammaTala: `Rachel House`, chiefTui: `Temuera Morrison`}) and set the object returned from the create method to a const variable called moana
 // 6c. Finally, console log the value of the moana variable
