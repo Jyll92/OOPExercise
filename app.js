@@ -75,7 +75,7 @@ class DMCast extends DM {
     // 5b. Inside the DMCast subclass create a constructor that takes the following parameters ("title", "main", & "cast").
     constructor(title, main, cast) {
     // 5c. Inside the constructor use the SUPER keyword to get the "title" & "main" properties from the DM parent class. Also, set the cast parameter as a new property (HINT: You will need to use the THIS keyword)
-    super(title, main, cast);
+    super(title, main);
     this.cast = cast;
     }
 
