@@ -80,11 +80,12 @@ class DMCast extends DM {
     }
 
     static create(title, main, cast) {
-        return `{
-            title: ${title},
-            main: ${main},
-            cast: ${cast}
-        }`
+        // return `{
+        //     title: ${title},
+        //     main: ${main},
+        //     cast: ${cast}
+        // }`
+        return new DMCast(title, main, cast);
     }
     }
 
